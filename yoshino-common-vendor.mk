@@ -267,7 +267,6 @@ PRODUCT_PACKAGES += \
     dpmapi \
     embmslibrary \
     qcrilhook \
-    qti-telephony-common \
     uimlpalibrary \
     vendor.qti.data.factory-V1.0-java \
     vendor.qti.data.factory-V2.0-java \
