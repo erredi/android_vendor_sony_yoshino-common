@@ -41,17 +41,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "uceShimService",
-	owner: "sony",
-	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "dpmserviceapp",
 	owner: "sony",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
@@ -357,20 +346,6 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.hardware.factory-V1.0-java",
-	owner: "sony",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.factory-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.hardware.factory-V1.1-java",
-	owner: "sony",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.factory-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.hardware.mwqemadapter-V1.0-java",
 	owner: "sony",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar"],
@@ -402,6 +377,13 @@ dex_import {
 	name: "vendor.qti.ims.factory-V1.0-java",
 	owner: "sony",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factory-V1.1-java",
+	owner: "sony",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
